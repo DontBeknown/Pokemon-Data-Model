@@ -31,23 +31,4 @@ Datasets were sourced from:
 - [Pokémon Metadata](https://www.kaggle.com/datasets/maca11/all-pokemon-dataset)
 - [Pokémon Rarity Levels](https://web.archive.org/web/20240203201627/https://www.pokego.org/rare-pokemon-list/)
 
----
 
-## Data Preparation
-- **Data Cleaning**: Removed duplicates, handled missing values, and converted data types.
-- **Feature Engineering**: Added new features like Pokémon rarity and normalized environmental variables.
-- **Integration**: Merged multiple datasets for comprehensive analysis.
-
----
-
-## Exploratory Data Analysis (EDA)
-Key insights:
-- Rare Pokémon are more likely to spawn near **PokéStops** and in urban areas.
-- Weather significantly influences Pokémon types, with specific types (e.g., Water, Bug) more common in certain conditions.
-- Rarity is highest in regions with moderate **population density** and near landmarks.
-
----
-
-## Modeling Techniques
-1. **Classification**: Decision Trees predict whether a Pokémon is rare (`True`) or not (`False`) based on environmental and locational factors.
-2. **Clustering**: K-means clustering identifies patterns among rare Pokémon, grouping them by shared conditions (e.g., proximity to landmarks, weather).

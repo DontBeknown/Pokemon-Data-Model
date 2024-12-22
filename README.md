@@ -11,10 +11,6 @@ This project leverages data modeling techniques to predict the conditions and lo
 3. [Data Preparation](#data-preparation)
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 5. [Modeling Techniques](#modeling-techniques)
-6. [Results](#results)
-7. [How to Use](#how-to-use)
-8. [Contributors](#contributors)
-9. [References](#references)
 
 ---
 
@@ -55,20 +51,3 @@ Key insights:
 ## Modeling Techniques
 1. **Classification**: Decision Trees predict whether a Pokémon is rare (`True`) or not (`False`) based on environmental and locational factors.
 2. **Clustering**: K-means clustering identifies patterns among rare Pokémon, grouping them by shared conditions (e.g., proximity to landmarks, weather).
-
----
-
-## Results
-- **Classification**:
-  - Accuracy: ~61%
-  - Precision (Rare Pokémon): ~77%
-  - Recall (Rare Pokémon): ~63%
-- **Clustering**:
-  - Identified 9 distinct clusters of rare Pokémon based on conditions.
-
----
-
-## How to Use
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/gotta-predict-em-all.git
